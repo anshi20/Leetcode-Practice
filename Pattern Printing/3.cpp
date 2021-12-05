@@ -16,8 +16,8 @@ int main(){
     int n,i,j;
     cout<<"Enter n : ";
     cin>>n;
-    for(i=5;i>0;i--){
-        for(j=5;j>=i;j--){
+    for(i=n;i>0;i--){
+        for(j=n;j>=i;j--){
             cout<<j<<" ";
         }
         cout<<"\n";
